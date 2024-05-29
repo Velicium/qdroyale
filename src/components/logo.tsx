@@ -1,32 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import royaleIcon from '../../public/logos/logo.png';
-import {
-Navbar as MTNavbar,
-Collapse,
-Button,
-IconButton,
-Typography,
-} from "@material-tailwind/react";
-import {
-RectangleStackIcon,
-UserCircleIcon,
-CommandLineIcon,
-Squares2X2Icon,
-XMarkIcon,
-Bars3Icon,
-} from "@heroicons/react/24/solid";
+import royaleIcon from '../../public/logos/royale-label-372x74.png';
 
 const Logo: React.FC = () => {
   return (
     <div className='flex items-center justify-center mt-4 md:justify-start'>
-      <Link href="/" passHref>
+      <Link href="/" passHref legacyBehavior>
         <a
-          className='w-16 h-16 bg-primary dark:bg-primary text-dark dark:text-dark flex items-center justify-center
-          rounded-full text-sm font-bold border border-solid border-primaryGreenDark dark:border-primaryGreenDark'
+          className='w-full h-full flex items-center justify-center'
         >
-          <Image src={royaleIcon} alt={"Royale Icon"} className='w-16 h-16 pb-1 pl-1 pr-1' priority />
+          <Image src={royaleIcon} alt={"Royale Icon"} className='w-[100px] h-[24px] pb-1 pl-1 pr-1' priority />
         </a>
       </Link>
     </div>
