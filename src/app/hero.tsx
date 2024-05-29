@@ -26,9 +26,9 @@ function Hero() {
             product development, quality control, and sales.
           </Typography>
           <Typography variant="small" className="font-normal !text-gray-500">
-            Read my{" "}
+            {" "}
             <a href="#" className="font-medium underline transition-colors">
-              Terms and Conditions
+            Read More
             </a>
           </Typography>
         </div>
