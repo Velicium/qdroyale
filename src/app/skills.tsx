@@ -13,32 +13,32 @@ import { SkillCard } from "@/components";
 
 const SKILLS = [
   {
-    icon: RectangleGroupIcon,
-    title: "Frontend Web Development:",
+    icon: SwatchIcon,
+    title: "Designing",
     children:
-      "Creating beautiful and functional web experiences is my forte. Using the latest technologies and best practices, I design and build websites that captivate and engage users.",
+      "We have a team of some of the most well-versed, highly experienced creative minds in the industry.",
+  },
+  {
+    icon: RectangleGroupIcon,
+    title: "3D Modeling",
+    children:
+      "Creating beautiful and captivating high quality 3D models of jewelries that satisfy our customers' requirements.",
   },
   {
     icon: FingerPrintIcon,
-    title: "Mobile App Development",
+    title: "Manufacturing",
     children:
-      " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
-  },
-  {
-    icon: SwatchIcon,
-    title: "Technology Stack",
-    children:
-      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript, and frameworks like React and React Native.",
+      " We specialize in manufacturing beautiful custom designs to satisfy our customer's specifications based on their own designs or with the help of our design teams to accurately satisfy our customers.",
   },
   {
     icon: HashtagIcon,
-    title: " Web Optimization",
+    title: " Water Plating",
     children:
       "Performance matters. I optimize websites and apps for speed, ensuring your users enjoy a fast and responsive experience, which in turn boosts user satisfaction and SEO rankings.",
   },
   {
     icon: EyeIcon,
-    title: "User-Centric Design",
+    title: "Vacume Metalization",
     children:
       "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
   },
@@ -46,7 +46,7 @@ const SKILLS = [
     icon: DocumentTextIcon,
     title: "Testing and Quality Assurance",
     children:
-      "I rigorously test and debug applications to guarantee a bug-free and secure environment for users. Your peace of mind is as important to me as the functionality of your project.",
+      "We rigorously test our products to guarantee a the best quality assurance for our clients. We do tensile tests, drop tests, sensory tests.",
   },
 ];
 
