@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
+import React from "react";
 
 const CLIENTS = [
   "coinbase",
