@@ -1,6 +1,6 @@
 "use client";
 
-import { Typography, Button } from "@material-tailwind/react";
+import { Button } from "@material-tailwind/react";
 import {
   ChartBarIcon,
   PuzzlePieceIcon,
@@ -16,7 +16,7 @@ const RESUME_ITEMS = [
   },
   {
     icon: PuzzlePieceIcon,
-    children: "Certified Web Developer ",
+    children: "Certified Web Developer",
   },
   {
     icon: CursorArrowRaysIcon,
@@ -29,13 +29,14 @@ export function Brochure() {
     <section className="px-8 py-24">
       <div className="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="col-span-1">
-          <Typography variant="h2" color="blue-gray">
+          <h2 className="text-3xl font-semibold text-blue-gray-700">
             Our Brochure
-          </Typography>
-          <Typography className="mb-4 mt-3 w-9/12 font-normal !text-gray-500">
-          We are the best in what we do, which is designing, modeling, crafting, and polishing jewelries and accessories for top brands globally.
-          Have a look at our Company Brochure.
-          </Typography>
+          </h2>
+          <p className="mb-4 mt-3 w-9/12 font-normal text-gray-500">
+            We are the best in what we do, which is designing, modeling,
+            crafting, and polishing jewelries and accessories for top brands
+            globally. Have a look at our Company Brochure.
+          </p>
           <Button
             variant="text"
             color="gray"
