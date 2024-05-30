@@ -1,11 +1,11 @@
 import { Card, Typography } from "@material-tailwind/react";
 
-interface ResumeItemProps {
+interface BrochureItemProps {
   icon: React.ElementType;
   children: React.ReactNode;
 }
 
-export function ResumeItem({ icon: Icon, children }: ResumeItemProps) {
+export function BrochureItem({ icon: Icon, children }: BrochureItemProps) {
   return (
     <div className="flex items-start gap-4">
       <Card
@@ -21,4 +21,4 @@ export function ResumeItem({ icon: Icon, children }: ResumeItemProps) {
   );
 }
 
-export default ResumeItem;
+export default BrochureItem;
