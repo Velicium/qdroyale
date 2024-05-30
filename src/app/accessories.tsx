@@ -1,6 +1,6 @@
 "use client";
 
-import { ProjectCard } from "@/components";
+import { AccessoriesCard } from "@/components";
 import { Typography } from "@material-tailwind/react";
 
 const ACCESSORIES = [
@@ -64,7 +64,7 @@ export function Accessories() {
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
         {ACCESSORIES.map((props, idx) => (
-          <ProjectCard key={idx} {...props} />
+          <AccessoriesCard key={idx} {...props} />
         ))}
       </div>
     </section>

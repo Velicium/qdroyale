@@ -7,13 +7,13 @@ import {
   Button,
 } from "@material-tailwind/react";
 
-interface ProjectCardProps {
+interface AccessoriesCardProps {
   img: string;
   title: string;
   desc: string;
 }
 
-export function ProjectCard({ img, title, desc }: ProjectCardProps) {
+export function AccessoriesCard({ img, title, desc }: AccessoriesCardProps) {
   return (
     <Card color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
@@ -34,15 +34,9 @@ export function ProjectCard({ img, title, desc }: ProjectCardProps) {
             {title}
           </Typography>
         </a>
-        <Typography className="mb-6 font-normal !text-gray-500">
-          {desc}
-        </Typography>
-        <Button color="gray" size="sm">
-          see details
-        </Button>
       </CardBody>
     </Card>
   );
 }
 
-export default ProjectCard;
+export default AccessoriesCard;
