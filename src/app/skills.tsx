@@ -44,7 +44,7 @@ const SKILLS = [
   },
   {
     icon: DocumentTextIcon,
-    title: "Testing and Quality Assurance",
+    title: "Quality Assurance and Testing",
     children:
       "We rigorously test our products to guarantee a the best quality assurance for our clients. We do tensile tests, drop tests, sensory tests.",
   },
