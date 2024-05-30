@@ -3,7 +3,7 @@
 import { ProjectCard } from "@/components";
 import { Typography } from "@material-tailwind/react";
 
-const PROJECTS = [
+const ACCESSORIES = [
   {
     img: "/image/blog-1.svg",
     title: "Mobile App Development",
@@ -46,7 +46,7 @@ const PROJECTS = [
   },
 ];
 
-export function Projects() {
+export function Accessories() {
   return (
     <section className="py-28 px-8">
       <div className="container mx-auto mb-20 text-center">
@@ -63,7 +63,7 @@ export function Projects() {
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
-        {PROJECTS.map((props, idx) => (
+        {ACCESSORIES.map((props, idx) => (
           <ProjectCard key={idx} {...props} />
         ))}
       </div>
@@ -71,4 +71,4 @@ export function Projects() {
   );
 }
 
-export default Projects;
+export default Accessories;
