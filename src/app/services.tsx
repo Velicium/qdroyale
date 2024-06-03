@@ -21,7 +21,7 @@ const SERVICES = [
     icon: RectangleGroupIcon,
     title: "3D Modeling",
     children:
-      "Creating beautiful and captivating high quality 3D models of jewelries that satisfy our customers' requirements.",
+      "Creating beautiful and captivating high quality 3D models of jewelries that satisfy our customers&apos;' requirements.",
   },
   {
     icon: FingerPrintIcon,

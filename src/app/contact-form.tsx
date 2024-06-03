@@ -17,7 +17,7 @@ export function ContactForm() {
         </h1>
         <p className="mx-auto w-full lg:w-5/12 !text-gray-500 text-base">
           Ready to get started? Feel free to reach out through the contact form,
-          and let's embark on a journey of innovation and success.
+          and let us embark on a journey of innovation and success.
         </p>
       </div>
       <div>
