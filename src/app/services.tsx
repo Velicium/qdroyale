@@ -1,6 +1,5 @@
 "use client";
 
-import { Typography } from "@material-tailwind/react";
 import {
   RectangleGroupIcon,
   FingerPrintIcon,
@@ -11,7 +10,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { SkillCard } from "@/components";
 
-const SKILLS = [
+const SERVICES = [
   {
     icon: SwatchIcon,
     title: "Designing",
@@ -32,7 +31,7 @@ const SKILLS = [
   },
   {
     icon: HashtagIcon,
-    title: " Water Plating",
+    title: "Water Plating",
     children:
       "Performance matters. I optimize websites and apps for speed, ensuring your users enjoy a fast and responsive experience, which in turn boosts user satisfaction and SEO rankings.",
   },
@@ -50,27 +49,24 @@ const SKILLS = [
   },
 ];
 
-export function Skills() {
+export function Services() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <h6 className="text-blue-gray-700 mb-2 font-bold uppercase">
           SERVICES
-        </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        </h6>
+        <h1 className="text-blue-gray-700 mb-4 text-3xl font-bold">
           What We Do
-        </Typography>
-        <Typography
-          variant="lead"
-          className="mx-auto w-full !text-gray-500 lg:w-10/12"
-        >
+        </h1>
+        <p className="mx-auto w-full !text-gray-500 lg:w-10/12">
           We are the best in what we do, which is designing, modeling, crafting, and polishing jewelries and accessories for top brands globally.
           We are not only crafting marvelous eye catching jewelries but also crafting happy experiences and immersive memories.
           What we do is not just a job but our passion and our calling. Discover below how QD ROYALE can help you.
-        </Typography>
+        </p>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-        {SKILLS.map((props, idx) => (
+        {SERVICES.map((props, idx) => (
           <SkillCard key={idx} {...props} />
         ))}
       </div>
@@ -78,4 +74,4 @@ export function Skills() {
   );
 }
 
-export default Skills;
+export default Services;

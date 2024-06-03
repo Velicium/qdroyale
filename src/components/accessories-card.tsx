@@ -1,11 +1,5 @@
 import Image from "next/image";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-  Button,
-} from "@material-tailwind/react";
+import { Card, CardHeader, CardBody } from "@material-tailwind/react";
 
 interface AccessoriesCardProps {
   img: string;
@@ -30,9 +24,9 @@ export function AccessoriesCard({ img, title, desc }: AccessoriesCardProps) {
           href="#"
           className="text-blue-gray-900 transition-colors hover:text-gray-800"
         >
-          <Typography variant="h5" className="mb-2">
+          <h5 className="mb-2 text-xl font-medium">
             {title}
-          </Typography>
+          </h5>
         </a>
       </CardBody>
     </Card>

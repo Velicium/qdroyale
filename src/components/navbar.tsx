@@ -6,7 +6,6 @@ import {
   Collapse,
   Button,
   IconButton,
-  Typography,
 } from "@material-tailwind/react";
 import {
   RectangleStackIcon,
@@ -41,16 +40,13 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
-      <Typography
-        as="a"
+      <a
         href={href || '#'}
         target={href ? '_blank' : '_self'}
-        variant="paragraph"
-        color="gray"
         className="flex items-center gap-2 font-medium text-gray-900"
       >
         {children}
-      </Typography>
+      </a>
     </li>
   );
 }

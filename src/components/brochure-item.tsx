@@ -1,4 +1,4 @@
-import { Card, Typography } from "@material-tailwind/react";
+import { Card } from "@material-tailwind/react";
 
 interface BrochureItemProps {
   icon: React.ElementType;
@@ -14,9 +14,9 @@ export function BrochureItem({ icon: Icon, children }: BrochureItemProps) {
       >
         <Icon className="h-6 w-6" strokeWidth={2} />
       </Card>
-      <Typography className="w-full font-normal !text-gray-500">
+      <p className="w-full font-normal text-gray-500">
         {children}
-      </Typography>
+      </p>
     </div>
   );
 }
