@@ -1,7 +1,7 @@
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
-import { Benefits } from "@/components/Benefits";
+import { Services } from "@/components/Services";
 import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
@@ -19,10 +19,10 @@ export default function Home() {
         We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.
       </SectionTitle>
 
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitOneTwo} />
-      <Benefits data={benefitTwo} />
-      <Benefits imgPos="right" data={benefitThree} />
+      <Services data={benefitOne} />
+      <Services imgPos="right" data={benefitOneTwo} />
+      <Services data={benefitTwo} />
+      <Services imgPos="right" data={benefitThree} />
 
       {/* <SectionTitle
         preTitle="Watch a video"

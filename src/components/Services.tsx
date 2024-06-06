@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
 
-interface BenefitsProps {
+interface ServicesProps {
   imgPos?: "left" | "right";
   data: {
     imgPos?: "left" | "right";
@@ -17,7 +17,7 @@ interface BenefitsProps {
   };
 }
 
-export const Benefits = (props: Readonly<BenefitsProps>) => {
+export const Services = (props: Readonly<ServicesProps>) => {
   const { data } = props;
   return (
     <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap">
@@ -31,7 +31,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
             src={data.image}
             width={521}
             height={521}
-            alt="Benefits"
+            alt="Services"
             className={"object-cover"}
             placeholder="blur"
             blurDataURL={data.image.src}
