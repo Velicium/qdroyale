@@ -1,21 +1,30 @@
 import type { Config } from "tailwindcss";
-const withMT = require("@material-tailwind/react/utils/withMT");
 
-const config: Config = withMT({
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+
+const config: Config = {
+  mode: "jit",
   content: [
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        'blue-gray': {
-          500: '#6B7280', // Example color code, adjust as needed
-        },
+        trueGray: colors.neutral,
       },
     },
+    fontFamily: {
+      sans: ["Inter", ...defaultTheme.fontFamily.sans],
+      stock: [defaultTheme.fontFamily.sans],
+    },
+  },
+  variants: {
+    extend: {},
   },
   plugins: [],
-});
-
+};
 export default config;
