@@ -15,6 +15,12 @@ const config: Config = {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        primary: "#FFEEA9",
+        primaryLight: "#FEFFD2",
+        primaryDark: "FFC94A",
+        primaryWhite: "#FFF8E3",
+        primaryGold: "#D5B679",
+        brassText: "#D5B679",
       },
     },
     fontFamily: {

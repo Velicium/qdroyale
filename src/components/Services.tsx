@@ -46,7 +46,7 @@ export const Services = (props: Readonly<ServicesProps>) => {
       >
         <div>
           <div className="flex flex-col w-full mt-4">
-            <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+            <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-primaryWhite">
               {data.title}
             </h3>
 
@@ -71,7 +71,7 @@ export const Services = (props: Readonly<ServicesProps>) => {
 function Benefit(props: { title: string; icon: StaticImageData; children: React.ReactNode }) {
   return (
     <div className="flex items-start mt-8 space-x-3">
-      <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11">
+      <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-primaryGold rounded-md w-11 h-11">
         <Image src={props.icon} width={28} height={28} alt={props.title} />
       </div>
       <div>

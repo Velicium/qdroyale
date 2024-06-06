@@ -17,7 +17,7 @@ export function Video({ videoId }: Readonly<VideoProps>) {
         {!playVideo && (
           <button
             onClick={() => setPlayVideo(!playVideo)}
-            className="absolute inset-auto w-16 h-16 text-white transform -translate-x-1/2 -translate-y-1/2 lg:w-28 lg:h-28 top-1/2 left-1/2"
+            className="absolute inset-auto w-16 h-16 text-primaryWhite transform -translate-x-1/2 -translate-y-1/2 lg:w-28 lg:h-28 top-1/2 left-1/2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
