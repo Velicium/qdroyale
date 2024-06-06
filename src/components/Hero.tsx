@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import heroImg from "../../public/img/hero.png";
+import heroImg from "../../public/img/hero.jpg";
 
 export const Hero = () => {
   return (
@@ -18,15 +18,17 @@ export const Hero = () => {
             organized into various teams including: material sourcing, design, 
             product development, quality control, and sales.
             </p>
-
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
-                target="_blank"
-                rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
-                Download Our Brochure
-              </a>
+              <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+                <a
+                  href="/Royale_Brochure.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  download={true}
+                  className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+                  Download Brochure
+                </a>
+              </div> 
             </div>
           </div>
         </div>

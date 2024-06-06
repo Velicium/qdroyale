@@ -4,8 +4,10 @@ import React from "react";
 import { Container } from "@/components/Container";
 
 export function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const navigation = ["Services", "Products"];
+  const legal = [
+    "Terms"
+  ];
   return (
     <div className="relative">
       <Container>
@@ -18,7 +20,7 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 <Image
-                  src="/img/logo.svg"
+                  src="/img/logo.png"
                   alt="N"
                   width="32"
                   height="32"
@@ -31,15 +33,15 @@ export function Footer() {
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
             Royal Jewelry Co., Ltd., No.6, Chongyang Road, Qiantian Industrial Park, Chengyang Street, Qingdao, Shandong, China
             </div>
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Phone:
-              CN: (+86) 13145390420 |
-              CN: (+86) 15615881538
-            </div>
             <div className="max-w-l mt-4 text-gray-500 dark:text-gray-400">
               WhatsApp:
               EN: (+86) 15753671694 |
               CN: (+86) 13145390420
+            </div>
+            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+              Phone:
+              CN: (+86) 13145390420 |
+              CN: (+86) 15615881538
             </div>
           </div>
 
@@ -72,31 +74,31 @@ export function Footer() {
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a
+              {/* <a
                 href="https://twitter.com/web3templates"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Twitter</span>
                 <Twitter />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://facebook.com/web3templates"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Facebook</span>
                 <Facebook />
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://instagram.com/web3templates"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Instagram</span>
                 <Instagram />
-              </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener">
+              </a> */}
+              <a href="https://www.linkedin.com/company/royale-jewelry-co" target="_blank" rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
               </a>

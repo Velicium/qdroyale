@@ -6,8 +6,13 @@ const ThemeChanger = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
-  // When mounted on client, now we can show the UI
-  useEffect(() => setMounted(true), []);
+  // Set default theme to light if not set
+  useEffect(() => {
+    if (!theme) {
+      setTheme("light");
+    }
+    setMounted(true);
+  }, [theme, setTheme]);
 
   if (!mounted) return null;
 
@@ -18,7 +23,6 @@ const ThemeChanger = () => {
           onClick={() => setTheme("light")}
           className="text-gray-300 rounded-full outline-none focus:outline-none">
           <span className="sr-only">Light Mode</span>
-
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-5 h-5"
