@@ -1,20 +1,18 @@
-import {
-  bangles,
-  bracelet,
-  brooche,
-  earrings,
-  necklace,
-  rings,
-  design,
-  threedimensions,
-  manufacturing,
-  goldplating,
-  vacuumchamber,
-  qa
-} from "../../public/img/icons";
+import bangles from "../../public/img/icons/bangles.png";
+import bracelet from "../../public/img/icons/bracelet.png";
+import brooch from "../../public/img/icons/brooch.png";
+import earrings from "../../public/img/icons/earrings.png";
+import necklace from "../../public/img/icons/necklace.png";
+import rings from "../../public/img/icons/rings.png";
+import design from "../../public/img/icons/design.png";
+import threedimensions from "../../public/img/icons/threedimensions.png";
+import manufacturing from "../../public/img/icons/manufacturing.png";
+import goldplating from "../../public/img/icons/goldplating.png";
+import vacuumchamber from "../../public/img/icons/vacuumchamber.png";
+import qa from "../../public/img/icons/qa.png";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/store.png";
+import benefitTwoImg from "../../public/img/office.png";
 
 const benefitOne = {
   title: "Services",
@@ -82,7 +80,7 @@ const benefitTwo = {
     {
       title: "Brooches",
       desc: "We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.",
-      icon: brooche,
+      icon: brooch,
     },
     {
       title: "Necklaces",
