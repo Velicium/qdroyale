@@ -31,15 +31,15 @@ export function Footer() {
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
             Royal Jewelry Co., Ltd., No.6, Chongyang Road, Qiantian Industrial Park, Chengyang Street, Qingdao, Shandong, China
             </div>
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Phone:
-              CN: (+86) 13145390420 |
-              CN: (+86) 15615881538
-            </div>
             <div className="max-w-l mt-4 text-gray-500 dark:text-gray-400">
               WhatsApp:
               EN: (+86) 15753671694 |
               CN: (+86) 13145390420
+            </div>
+            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+              Phone:
+              CN: (+86) 13145390420 |
+              CN: (+86) 15615881538
             </div>
           </div>
 
