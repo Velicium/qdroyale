@@ -16,11 +16,7 @@ export default function Home() {
         preTitle="Services"
         title=" What We Can Do For You"
       >
-        Royale Accessories Ltd. was established by Lonny Wang in 2008, 
-        who has been in the fashion (costume) jewelry industry for over 20 years. 
-        With his experience and expertise, Mr. Wang leads over 200 employees, 
-        organized into various teams including: material sourcing, design, 
-        product development, quality control, and sales.
+        We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
