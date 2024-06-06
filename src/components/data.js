@@ -11,8 +11,8 @@ import goldplating from "../../public/img/icons/goldplating.png";
 import vacuumchamber from "../../public/img/icons/vacuumchamber.png";
 import qa from "../../public/img/icons/qa.png";
 
-import benefitOneImg from "../../public/img/store.png";
-import benefitTwoImg from "../../public/img/office.png";
+import benefitOneImg from "../../public/img/store.jpg"
+import benefitTwoImg from "../../public/img/office.jpg";
 
 const benefitOne = {
   title: "Services",
