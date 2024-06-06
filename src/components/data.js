@@ -12,15 +12,17 @@ import vacuumchamber from "../../public/img/icons/vacuumchamber.png";
 import qa from "../../public/img/icons/qa.png";
 
 import benefitOneImg from "../../public/img/store.jpg"
+import benefitOneTwoImg from "../../public/img/office.jpg"
 import benefitTwoImg from "../../public/img/products.jpg";
+import benefitThreeImg from "../../public/img/desertlace.jpg";
 
 const benefitOne = {
-  title: "Services",
+  title: "R&D",
   desc: "What we do is not just a job but our passion and our calling. Discover below how we can help you.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Designing",
+      title: "Design & R&D",
       desc: "We have a team of some of the most well-versed, highly experienced creative minds in the industry.",
       icon: design,
     },
@@ -34,6 +36,14 @@ const benefitOne = {
       desc: "We specialize in manufacturing beautiful custom designs to satisfy our customer's specifications based on their own designs or with the help of our design teams to accurately satisfy our customers.",
       icon: manufacturing,
     },
+  ],
+};
+
+const benefitOneTwo = {
+  title: "Finishing & QA",
+  desc: "What we do is not just a job but our passion and our calling. Discover below how we can help you.",
+  image: benefitOneTwoImg,
+  bullets: [
     {
       title: "Water Plating",
       desc: "Performance matters. I optimize websites and apps for speed, ensuring your users enjoy a fast and responsive experience, which in turn boosts user satisfaction and SEO rankings.",
@@ -54,41 +64,49 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "Products",
-  desc: "We can do anything with your designs or with ours by our creative in-house design team.",
+  desc: "We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.",
   image: benefitTwoImg,
   bullets: [
     {
       title: "Rings",
-      desc: "We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.",
+      desc: "",
       icon: rings,
     },
     {
       title: "Bangles",
-      desc: "We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.",
+      desc: "",
       icon: bangles,
     },
     {
       title: "Earrings",
-      desc: "We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.",
+      desc: "",
       icon: earrings,
     },
+  ],
+};
+
+const benefitThree = {
+  title: "More Products",
+  desc: "We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.",
+  image: benefitThreeImg,
+  bullets: [
     {
       title: "Bracelets",
-      desc: "We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.",
+      desc: "",
       icon: bracelet,
     },
     {
       title: "Brooches",
-      desc: "We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.",
+      desc: "",
       icon: brooch,
     },
     {
       title: "Necklaces",
-      desc: "We can craft any design you want with cubic zirconium, 925 sterling silver, brass, zinc alloy, or metal.",
+      desc: "",
       icon: necklace,
     },
   ],
 };
 
 
-export {benefitOne, benefitTwo};
+export {benefitOne, benefitOneTwo, benefitTwo, benefitThree};
