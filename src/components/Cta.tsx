@@ -19,7 +19,7 @@ export const Cta = () => {
               download={true}
               target="_blank"
               rel="noopener"
-              className="inline-block py-3 mx-auto text-lg font-medium text-center text-brassText bg-primaryWhite rounded-md px-7 lg:px-10 lg:py-5 "
+              className="inline-block py-3 mx-auto text-lg font-medium text-center text-black bg-primaryWhite rounded-md px-7 lg:px-10 lg:py-5 "
             >
               Download Our Brochure
             </a>
@@ -30,7 +30,7 @@ export const Cta = () => {
               download={true}
               target="_blank"
               rel="noopener"
-              className="inline-block py-3 mx-auto text-lg font-medium text-center text-brassText bg-primaryWhite rounded-md px-7 lg:px-10 lg:py-5 "
+              className="inline-block py-3 mx-auto text-lg font-medium text-center text-black bg-primaryWhite rounded-md px-7 lg:px-10 lg:py-5 "
             >
               Download Company Profile
             </a>
